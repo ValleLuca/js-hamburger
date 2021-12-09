@@ -1,12 +1,12 @@
-const element = document.querySelector(".fa-bars");
+const OpernMenu = document.querySelector(".fa-bars");
 
-element.addEventListener("click", function() {
+OpernMenu.addEventListener("click", function() {
     document.querySelector(".hamburger-menu").style.display = "block";
 });
 
-const element = document.querySelector(".fa-times");
+const CloseMenu = document.querySelector(".fa-times");
 
-element.addEventListener("click", function() {
+CloseMenu.addEventListener("click", function() {
     document.querySelector(".hamburger-menu").style.display = "none";
 });
 
