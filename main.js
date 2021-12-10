@@ -1,12 +1,11 @@
-const OpernMenu = document.querySelector(".fa-bars");
+const opernMenu = document.querySelector(".fa-bars"); //aggiunta variabile "openMenu"
+const closeMenu = document.querySelector(".fa-times");//aggiunta variabile "closeMenu"
 
-OpernMenu.addEventListener("click", function() {
-    document.querySelector(".hamburger-menu").style.display = "block";
+opernMenu.addEventListener("click", function() {
+    document.querySelector(".hamburger-menu").style.display = "block"; //aggiunta query che fa aprire il menù ad hamburgher
 });
 
-const CloseMenu = document.querySelector(".fa-times");
-
-CloseMenu.addEventListener("click", function() {
-    document.querySelector(".hamburger-menu").style.display = "none";
+closeMenu.addEventListener("click", function() {
+    document.querySelector(".hamburger-menu").style.display = "none"; //aggiunta query che fa chiudere il menù ad hamburgher
 });
 
